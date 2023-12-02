@@ -1,0 +1,40 @@
+     *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containar{
+    width: 40vw;
+    height: 40vh;
+    background-color: burlywood;
+    text-align: center;
+    margin: auto;
+    position: relative;
+
+}
+.box{
+    width: 100px;
+    height: 75px;
+    background-color: darkslategray;
+    position: absolute;
+    left: 10px;
+}
+.fixed{
+    width: 100px;
+    height: 25px;
+    background-color: darkorange;
+    color: black;
+    position: fixed;
+    top: 20px;
+
+}
+.sticky{
+    width: 100px;
+    height: 20;
+    background-color: black;
+    color: orange;
+    position: sticky;
+    top: 50px;    
+
+}
